@@ -9,9 +9,10 @@ import os
  
 def get_color():
     # 获取随机颜色
-   hex_digits = "0123456789ABCDEF"
-    hex_color = "#" + "".join([random.choice(hex_digits) for _ in range(6)])
-    return random.choice((random_hex_color)
+   def random_css_color_name():
+    css_colors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'pink', 'brown', 'gray']
+    return random.choice(css_colors)
+
  
 
  
